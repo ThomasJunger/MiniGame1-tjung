@@ -28,7 +28,7 @@ When the time is gone your score will show up in the EndScreen.
 
 
 ### Screens sketch
-![Concept](Documents/Minigame_concept1.jpeg)
+![Concept](Documents/Minigame_Concept1.jpeg)
 
 ## Gameplay Screenshots
 coming soon
