@@ -23,11 +23,12 @@ Collect as many Eggs as possible, if they fall on the ground they break!
 (2D Game)
 It's a spring/easter themed game, you play as a easter bunny. The main object of the game is to collect as many eggs as possible.
 The Player can move left and right with the AD and horizontal arrow keys. 
-In the game you have only 3 Lifes. If a Egg hits the floor it breaks and you lose one.
+In the game you have only a certain amount of time. If an egg hits the floor it breaks and you lose one point.
+When the time is gone your score will show up in the EndScreen.
 
 
 ### Screens sketch
-![Concept](Documents/Minigame_concept.jpeg)
+![Concept](Documents/Minigame_concept1.jpeg)
 
 ## Gameplay Screenshots
 coming soon
