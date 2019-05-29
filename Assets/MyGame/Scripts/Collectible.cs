@@ -5,29 +5,31 @@ using TMPro;
 
 public class Collectible : MonoBehaviour 
 {
+	public MyScore score;
+	public TextMeshProUGUI pointsScore;
+
 	void Start()
 	{
-		pointsScore.text = score.ToString();
+		
+
 	}
-	
-	private int score = 0;
-	public TextMeshProUGUI pointsScore;
+
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		Debug.Log("Triggerevent " + collision.gameObject.name);
 
-		if (collision.gameObject.name == "Bunny")
+		if (collision.gameObject.name == "Player")
 		{
-			score += 5;
-			Debug.Log("score " + score);
-			pointsScore.text = score.ToString();
+			score.score += 5;
+			Debug.Log("scoreplayer " + score.score);
+			pointsScore.text = score.score.ToString();
 		}
 		else if (collision.gameObject.name == "GedachteLinie")
 		{
-			score -= 10;
-			Debug.Log("score " + score);
-			pointsScore.text = score.ToString();
+			score.score -= 10;
+			Debug.Log("scoregedachtelinie " + score.score);
+			pointsScore.text = "hallo";
 		}
 
 	}
