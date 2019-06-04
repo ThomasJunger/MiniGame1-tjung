@@ -13,6 +13,10 @@ public class Collectible : MonoBehaviour
 		
 
 	}
+	private void Update()
+	{
+		pointsScore.text = score.score.ToString();
+	}
 
 
 	private void OnTriggerEnter2D(Collider2D collision)
@@ -23,7 +27,6 @@ public class Collectible : MonoBehaviour
 		{
 			score.score += 5;
 			Debug.Log("scoreplayer " + score.score);
-			pointsScore.text = score.score.ToString();
 		}
 		else if (collision.gameObject.name == "GedachteLinie")
 		{

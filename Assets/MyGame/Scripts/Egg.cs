@@ -6,7 +6,12 @@ public class Egg : MonoBehaviour {
 
 private void OnTriggerEnter2D(Collider2D collision)
 	{
-		if(collision.gameObject.name == "ColliderBottom")
+		if(collision.gameObject.name == "Player")
+		{
+			Destroy(gameObject);
+		}
+
+		else if(collision.gameObject.name == "ColliderBottom")
 		{
 			Destroy(gameObject);
 		}
