@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 2002983710}
   - component: {fileID: 2002983709}
   m_Layer: 5
-  m_Name: inttro_image
+  m_Name: Intro_image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

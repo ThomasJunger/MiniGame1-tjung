@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnEgg : MonoBehaviour {
-
+public class SpawnEgg : MonoBehaviour 
+{
 	public Egg eggPrefab;
 	public GameObject EggParent;
 	private bool spawn = true;
@@ -34,7 +34,7 @@ public class SpawnEgg : MonoBehaviour {
 	eggClone.transform.SetParent(EggParent.transform);
 	eggClone.transform.localPosition = new Vector3(Random.Range(xMinPos, xMaxPos), EggParent.transform.position.y, 0f);
 	eggClone.transform.localScale = new Vector3(eggSize, eggSize, 0);
-	eggClone.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-2, 2), Random.Range(-10, -1));
+	eggClone.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Random.Range(-6, -3));
 
 	}
 }

@@ -6,9 +6,8 @@ using TMPro;
 using System.Threading;
 using UnityEngine.SceneManagement;
 
-public class TimerScript : MonoBehaviour {
-
-
+public class TimerScript : MonoBehaviour 
+{
   public int timeLeft = 60; //Seconds Overall
   public TextMeshProUGUI countdown; //UI Text Object
   public Canvas timeOver;
@@ -35,4 +34,5 @@ public class TimerScript : MonoBehaviour {
       timeLeft--; 
     }
 
-  }}
+  }
+}

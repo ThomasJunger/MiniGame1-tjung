@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestingRandomizer : MonoBehaviour {
-
+public class TestingRandomizer : MonoBehaviour 
+{
 	private float rndVal;
 	private float rndVal2;
 	public float minValX = -6f;
@@ -16,7 +16,6 @@ public class TestingRandomizer : MonoBehaviour {
 		rndVal2 = UnityEngine.Random.Range(4, 100);
 		Debug.Log("System Random " + rndVal + " Unity Random " + rndVal2);
 		
-
 	}
 
 	public void ChangeRandomCube()
