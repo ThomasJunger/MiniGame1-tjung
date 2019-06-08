@@ -113,6 +113,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &45119792 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114596558424354622, guid: 7ee7ca506bf9e45d6ad2d3f0e7262c4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 148780268}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 --- !u!1001 &148780268
 Prefab:
   m_ObjectHideFlags: 0
@@ -249,6 +255,7 @@ GameObject:
   - component: {fileID: 196224154}
   - component: {fileID: 196224153}
   - component: {fileID: 196224152}
+  - component: {fileID: 196224156}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -351,6 +358,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &196224156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 196224151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f258994269142434fba91f320ee45336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 11400000, guid: ab64fbb0c4e8142b6bfb30dfb3b98850, type: 2}
+  pointsScore: {fileID: 45119792}
 --- !u!1 &255367999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,6 +1102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782763515}
   - component: {fileID: 1782763514}
+  - component: {fileID: 1782763516}
   m_Layer: 0
   m_Name: GedachteLinie
   m_TagString: Untagged
@@ -1127,6 +1148,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1782763516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782763513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f258994269142434fba91f320ee45336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 11400000, guid: ab64fbb0c4e8142b6bfb30dfb3b98850, type: 2}
+  pointsScore: {fileID: 114596558424354622, guid: 7ee7ca506bf9e45d6ad2d3f0e7262c4b,
+    type: 2}
 --- !u!1 &1803529667
 GameObject:
   m_ObjectHideFlags: 0

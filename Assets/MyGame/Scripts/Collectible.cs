@@ -5,14 +5,15 @@ using TMPro;
 
 public class Collectible : MonoBehaviour 
 {
+	
 	public MyScore score;
 	public TextMeshProUGUI pointsScore;
 
 	void Start()
 	{
-		
 
 	}
+
 	private void Update()
 	{
 		pointsScore.text = score.score.ToString();
@@ -23,16 +24,17 @@ public class Collectible : MonoBehaviour
 	{
 		Debug.Log("Triggerevent " + collision.gameObject.name);
 
-		if (collision.gameObject.name == "Player")
+		if (gameObject.name == "Player" && collision.gameObject.tag == "Egg")
 		{
 			score.score += 5;
 			Debug.Log("scoreplayer " + score.score);
+			pointsScore.text = score.score.ToString();
 		}
-		else if (collision.gameObject.name == "GedachteLinie")
+		else if (gameObject.name == "GedachteLinie" && collision.gameObject.tag == "Egg")
 		{
 			score.score -= 10;
 			Debug.Log("scoregedachtelinie " + score.score);
-			pointsScore.text = "hallo";
+			pointsScore.text = score.score.ToString();
 		}
 
 	}
