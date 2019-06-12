@@ -167,9 +167,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: '999
-
-'
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -237,9 +235,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: -28.702002, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 52045183}
-    characterCount: 4
+    characterCount: 1
     spriteCount: 0
-    spaceCount: 1
+    spaceCount: 0
     wordCount: 1
     linkCount: 0
     lineCount: 1
@@ -339,6 +337,49 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 427046339}
   m_CullTransparentMesh: 0
+--- !u!1 &1262913128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1262913130}
+  - component: {fileID: 1262913129}
+  m_Layer: 0
+  m_Name: ScoreLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1262913129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1262913128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74973d40751504cf4be323884f813952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScore: {fileID: 2123575509}
+  highScore: {fileID: 52045183}
+  myScore: {fileID: 11400000, guid: ab64fbb0c4e8142b6bfb30dfb3b98850, type: 2}
+--- !u!4 &1262913130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1262913128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.059433192, y: 0.4114717, z: 0.17514512}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1266317729
 Prefab:
   m_ObjectHideFlags: 0
@@ -867,7 +908,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: '99
+  m_text: '0
 
 '
   m_isRightToLeft: 0
@@ -937,7 +978,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: -28.702002, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2123575509}
-    characterCount: 3
+    characterCount: 2
     spriteCount: 0
     spaceCount: 1
     wordCount: 1

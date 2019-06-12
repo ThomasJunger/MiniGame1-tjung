@@ -16,7 +16,7 @@ public class Collectible : MonoBehaviour
 
 	private void Update()
 	{
-		pointsScore.text = score.score.ToString();
+		
 	}
 
 
@@ -26,13 +26,13 @@ public class Collectible : MonoBehaviour
 
 		if (gameObject.name == "Player" && collision.gameObject.tag == "Egg")
 		{
-			score.score += 5;
+			score.score += 1;
 			Debug.Log("scoreplayer " + score.score);
 			pointsScore.text = score.score.ToString();
 		}
 		else if (gameObject.name == "GedachteLinie" && collision.gameObject.tag == "Egg")
 		{
-			score.score -= 10;
+			score.score -= 2;
 			Debug.Log("scoregedachtelinie " + score.score);
 			pointsScore.text = score.score.ToString();
 		}
