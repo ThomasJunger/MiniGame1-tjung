@@ -3,9 +3,7 @@
 ## EGGAME
 **Progress:** 100% (16.06.2019)
 
-<div>
-<img src="./Screenshots/Game-Banner.jpg" width="512">
-</div>
+![Concept](Screenshots/Game-Banner.jpg)
 
 Collect as many Eggs as possible, if they fall on the ground they break!
 *So be careful.*
