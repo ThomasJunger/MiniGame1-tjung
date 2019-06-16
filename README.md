@@ -7,7 +7,7 @@
 <img src="./Documents/Game-Banner.jpg" width="512">
 </div>
 
-Collect as many Eggs as possible, if they fall on the ground they break!
+#### Collect as many Eggs as possible, if they fall on the ground they break!
 *So be careful.*
 
 
@@ -36,18 +36,24 @@ When the time is gone your score will show up in the EndScreen.
 
 
 ### Screens sketch
-![Concept](Documents/Minigame_Concept2.jpg)
+<div>
+<img src="./Documents/Minigame_Concept2.jpg" width="312">
+</div>
 
 ## Gameplay Screenshots
 
-<div>
-<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 13.58.26.png" width="512">
-</div>
+###IntroScene
 
 <div>
-<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 13.59.38.png" width="512">
+<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 13.58.26.png" width="312">
 </div>
 
+###MainScene
+<div>
+<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 13.59.38.png" width="312">
+</div>
+
+###EndScene
 <div>
 <img src="./Screenshots/Bildschirmfoto 2019-06-16 um 14.01.04.png" width="512">
 </div>
@@ -63,6 +69,6 @@ When the time is gone your score will show up in the EndScreen.
 
 ### Resources used:
 TextMeshPro (TMP)
-- Copyright Free Music and Sound for the Trailer
+Copyright Free Music and Sound for the Trailer
 
 ##### © Copyright by Thomas Junger
