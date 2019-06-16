@@ -3,7 +3,9 @@
 ## EGGAME
 **Progress:** 100% (16.06.2019)
 
-![Concept](Screenshots/Game-Banner.jpg)
+<div>
+<img src="./Documents/Game-Banner.jpg" width="512">
+</div>
 
 Collect as many Eggs as possible, if they fall on the ground they break!
 *So be careful.*
@@ -18,6 +20,9 @@ Collect as many Eggs as possible, if they fall on the ground they break!
  
 ### Target-Platfrom: 
  WebGL 1024x768
+
+### Game-Trailer:
+https://www.youtube.com/watch?v=0yyhRVeWEOw
 
 ### Controls: 
  On X-Axis, with AD or Left and Right.
@@ -34,12 +39,30 @@ When the time is gone your score will show up in the EndScreen.
 ![Concept](Documents/Minigame_Concept2.jpg)
 
 ## Gameplay Screenshots
-coming soon
+
+<div>
+<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 13.58.26.png" width="512">
+</div>
+
+<div>
+<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 13.59.38.png" width="512">
+</div>
+
+<div>
+<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 14.01.04.png" width="512">
+</div>
 
 ### Lessons Learned and Limitatons
+- How to start concepting a game
+- Working with Unity 2D Colliders and Rigidbodies
+- Working with Unity Inputs (Horizontal Axis)
+- Working with Scriptable Objects in Unity
+- Methods of code refactoring in C#
 - how to use ScreenLoader Script
+
 
 ### Resources used:
 TextMeshPro (TMP)
+- Copyright Free Music and Sound for the Trailer
 
 ##### © Copyright by Thomas Junger
