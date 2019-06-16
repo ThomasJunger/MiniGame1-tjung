@@ -615,7 +615,7 @@ MonoBehaviour:
     type: 2}
   EggParent: {fileID: 991748592}
   minSpawnDelay: 1
-  maxSpawnDelay: 5
+  maxSpawnDelay: 3
   eggMinSize: 1
   eggMaxSize: 1
   xMinPos: -6
