@@ -1,10 +1,15 @@
 # MiniGame1-tjung
 
 ## EGGAME
+**Progress:** 100% (16.06.2019)
+
+<div>
+<img src="./Screenshots/Game-Banner.jpg" width="512">
+</div>
+
 Collect as many Eggs as possible, if they fall on the ground they break!
 *So be careful.*
 
-**Progress:** 10%
 
 ### Dev-Platform: 
  - *OS: macOS 10.14.4*
@@ -14,7 +19,7 @@ Collect as many Eggs as possible, if they fall on the ground they break!
  - *API Compatibility Level: .NET 2.0 Subset*
  
 ### Target-Platfrom: 
- WebGL
+ WebGL 1024x768
 
 ### Controls: 
  On X-Axis, with AD or Left and Right.
