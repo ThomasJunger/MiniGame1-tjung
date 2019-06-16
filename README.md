@@ -42,20 +42,20 @@ When the time is gone your score will show up in the EndScreen.
 
 ## Gameplay Screenshots
 
-###IntroScene
+### IntroScene
 
 <div>
 <img src="./Screenshots/Bildschirmfoto 2019-06-16 um 13.58.26.png" width="312">
 </div>
 
-###MainScene
+### MainScene
 <div>
 <img src="./Screenshots/Bildschirmfoto 2019-06-16 um 13.59.38.png" width="312">
 </div>
 
-###EndScene
+### EndScene
 <div>
-<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 14.01.04.png" width="512">
+<img src="./Screenshots/Bildschirmfoto 2019-06-16 um 14.01.04.png" width="312">
 </div>
 
 ### Lessons Learned and Limitatons
