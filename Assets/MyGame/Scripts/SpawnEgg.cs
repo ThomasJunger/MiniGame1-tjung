@@ -14,6 +14,9 @@ public class SpawnEgg : MonoBehaviour
 	public float eggMinSize = 0.05f;
 	public float eggMaxSize = 0.05f;
 
+	public float eggRandomMin = -6f;
+	public float eggRandomMax = -5f;
+
 	public int xMinPos;
 	public int xMaxPos;
 
@@ -33,6 +36,6 @@ public class SpawnEgg : MonoBehaviour
 	eggClone.transform.SetParent(EggParent.transform);
 	eggClone.transform.localPosition = new Vector3(Random.Range(xMinPos, xMaxPos), EggParent.transform.position.y, 0f);
 	eggClone.transform.localScale = new Vector3(eggSize, eggSize, 0);
-	eggClone.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Random.Range(-6, -3));
+	eggClone.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Random.Range(eggRandomMin, eggRandomMax));
 	}
 }
