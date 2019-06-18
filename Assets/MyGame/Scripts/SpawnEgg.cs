@@ -17,7 +17,6 @@ public class SpawnEgg : MonoBehaviour
 	public int xMinPos;
 	public int xMaxPos;
 
-
 	IEnumerator Start()
     {
         while (spawn)
@@ -35,6 +34,5 @@ public class SpawnEgg : MonoBehaviour
 	eggClone.transform.localPosition = new Vector3(Random.Range(xMinPos, xMaxPos), EggParent.transform.position.y, 0f);
 	eggClone.transform.localScale = new Vector3(eggSize, eggSize, 0);
 	eggClone.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Random.Range(-6, -3));
-
 	}
 }

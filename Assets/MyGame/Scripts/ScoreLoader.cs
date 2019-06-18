@@ -9,7 +9,6 @@ public class ScoreLoader : MonoBehaviour {
 	public TextMeshProUGUI highScore;
 	public MyScore myScore;
 	
-
 	// Use this for initialization
 	void Start () 
 	{
@@ -23,9 +22,6 @@ public class ScoreLoader : MonoBehaviour {
 	highScore.text = myScore.highscore.ToString();
 	}
 	
-
-
-
 	public void OverwriteHighscore()
 	{
 		if (myScore.score > myScore.highscore)
