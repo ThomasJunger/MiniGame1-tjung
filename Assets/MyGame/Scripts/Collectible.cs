@@ -7,30 +7,24 @@ public class Collectible : MonoBehaviour
 {
 	
 	public MyScore score;
-	public TextMeshProUGUI pointsScore;
+	private TextMeshProUGUI pointsScore;
 
 	void Start()
 	{
-
+		pointsScore = GameObject.Find("PointScore").GetComponent<TextMeshProUGUI>();
 	}
-
-	private void Update()
-	{
-		
-	}
-
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		Debug.Log("Triggerevent " + collision.gameObject.name);
 
-		if (gameObject.name == "Player" && collision.gameObject.tag == "Egg")
+		if (collision.gameObject.name == "Player")
 		{
 			score.score += 1;
 			Debug.Log("scoreplayer " + score.score);
 			pointsScore.text = score.score.ToString();
 		}
-		else if (gameObject.name == "GedachteLinie" && collision.gameObject.tag == "Egg")
+		else if (collision.gameObject.name == "GedachteLinie")
 		{
 			score.score -= 2;
 			Debug.Log("scoregedachtelinie " + score.score);
